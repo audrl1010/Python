@@ -82,3 +82,8 @@ if number % 2 == 0: continue
 
 ## For
 
+```python
+for variable in list(or tuple, string):
+	excuting statement1...	
+	excuting statement2...
+```
