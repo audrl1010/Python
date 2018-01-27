@@ -71,7 +71,9 @@ break
 	executing statement...
 ```
 
-## If conditional statement wrong, return to the beginning in while statement.
+## continue
+
+If conditional statement wrong, return to the beginning in while statement.
 ```python
 number = 0
 while number < 10:
@@ -86,4 +88,31 @@ if number % 2 == 0: continue
 for variable in list(or tuple, string):
 	excuting statement1...	
 	excuting statement2...
+```
+
+### for with continue
+
+```python
+marks = [90, 25, 67, 45, 80]
+for (index,mark) in enumerate(marks):
+	if mark < 60: continue
+	print("%d student is Pass" %(index+1))
+```
+
+### for with range
+```python
+marks = [90, 25, 67, 43, 80]
+for number in range(len(marks)):
+	if marks[number] < 60: continue
+	print("%d student is Pass" %(number + 1))
+```
+
+### list include for statement
+
+[expression for item in iterable if conditional statement]
+
+```python
+number = [3,6,9,12]
+result = [num for num in number if num %2 ==0]
+print(result)
 ```
