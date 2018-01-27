@@ -1,22 +1,15 @@
 # Python
 Python 정리 저장소
 
-sean
-
- ## TEST
-
-# Python
-Python 정리 저장소
-
 ## if, elif, else
 Have to do identation on forehead executeing statement.
 ```python
 if conditional statement:
-executing statement...
+	executing statement...
 elif conditional statment:
-executing statement...
+	executing statement...
 else:
-executing statement...
+	executing statement...
 ```
 ### what is conditional statement ?
 The conditional statement is a sentence that judges true and false.
@@ -67,23 +60,25 @@ True
 ## while
 ```python
 while conditional statement:
-executing statement....
+	executing statement....
 ```
 
 ## Forcing a while statement to exit
 ```python
 while conditional statement:
-executing statement...
+	executing statement...
 break
-executing statement...
+	executing statement...
 ```
 
 ## If conditional statement wrong, return to the beginning in while statement.
 ```python
 number = 0
 while number < 10:
-number += 1
+	number += 1
 if number % 2 == 0: continue
-print(number)
+	print(number)
 ```
+
+## For
 
