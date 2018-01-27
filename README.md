@@ -109,7 +109,7 @@ for number in range(len(marks)):
 
 ### list include for statement
 
-[expression for item in iterable if conditional statement]
+[`expression` `for item in iterable` `if conditional statement`]
 
 ```python
 number = [3,6,9,12]
