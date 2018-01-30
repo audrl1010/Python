@@ -1,6 +1,6 @@
 # Data Type
 
-Normally Python judge itself data type
+Normally Python judge data type itself
 
 ## Number
 - You can squared number by **
@@ -20,6 +20,6 @@ Normally Python judge itself data type
 ```python
 >>> a = "Learn Python is Fun!"
 >>> b = a[0] + a[6] + a[16] a[-1]
->> b
+>>> b
 'LPF!'
 ```
