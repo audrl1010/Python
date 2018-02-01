@@ -24,7 +24,7 @@ Normally Python judge data type itself
 'LPF!'
 ```
 
-### List
+## List
 ### Indexing & Slicing
 
 ```python
@@ -69,7 +69,7 @@ a.pop()
 a.count()
 a.extend()
 
-### Tuple
+## Tuple
 
 - Tuple is immutable data type
 - Tuple can not delete or change
