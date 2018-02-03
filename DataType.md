@@ -24,6 +24,17 @@ Normally Python judge data type itself
 'LPF!'
 ```
 
+### Formating
+- formating
+```python
+>>> "AlphaGo wins the baduk {0} time and lose {lose} time".format(10000, lose = 1)
+```
+- align and fill the blank space
+```python
+>>> "{0:*^10}".format('MainMenu')
+'*MainMenu*'
+```
+
 ## List
 ### Indexing & Slicing
 
