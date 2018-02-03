@@ -25,6 +25,28 @@ a.set(4,2)
 `a -> self` `4 ->first` `2 -> second`
 
 ## Constructor , Inheritance, Overriding
+```python
+class Math():
+    def __init__(self, first, second):
+        self.first = first
+        self.second = second
+    def sum(self):
+        result = self.first + self.second
+        return result
+
+class MoreMath(Math):
+    def div(self):
+        result = self.first / self.second
+        return result
+
+class FixMath(MoreMath):
+    def div(self):
+        if self.second == 0:
+            print('change the second num')
+            return  
+        else: 
+            return self.first/self.second
+```
 
 # Module 
 import module
