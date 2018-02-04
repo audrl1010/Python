@@ -49,12 +49,31 @@ class FixMath(MoreMath):
 ```
 
 # Module 
-import module
-import importlib
-importlib.reload(module)
+- import module
+- import importlib
+- importlib.reload(module)
 
 ## namespace
-from module import method1, method2
-from module import *   // import all method
+- from module import method1, method2
+- from module import *
 
 ## if __name__ == "__main__":
+
+## import module
+
+1. sys.path.append
+```python
+>>> import sys
+>>> sys.path
+>>> sys.path.append("C:/python/Mymodules")
+```
+2. PYTHONPATH
+`CMD` - `C:\Users\home>set PYTHONPATH=C:\Python\Modules`
+
+# Pakage
+
+- __init__.py let the directory is part of the package
+- from a.b.c import *
+- __all__ = ['c']
+
+## relative import 
